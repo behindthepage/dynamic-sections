@@ -1,5 +1,6 @@
 {
     "name": "behindthepage/dynamic-sections",
+    "type": "library",
     "description": "A Baun plugin that adds configurable dynamic sections to pages",
     "license": "MIT",
     "authors": [
