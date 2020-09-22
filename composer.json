@@ -1,0 +1,17 @@
+{
+    "name": "behindthepage/dynamic-sections",
+    "description": "A Baun plugin that adds configurable dynamic sections to pages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geoff Davies",
+            "email": "geoff@behindthepage.com.au"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BaunPlugin\\DynamicSections\\": "src/"
+        }
+    }
+}

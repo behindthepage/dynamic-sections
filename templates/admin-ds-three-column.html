@@ -1,0 +1,34 @@
+<!-- admin-ds-three-column.html -->
+<div id="section-{{ count }}" class="panel panel-default panel-sortable">
+  <div class="panel-body">
+    <h4 class="collapsed" data-toggle="collapse" data-target="#collapse-section-{{ count }}" aria-expanded="false" aria-controls="collapseExample">Three Columns(#{{ count }})<span></span></h4>
+    <div class="collapse" id="collapse-section-{{ count }}">
+    <input type="hidden" name="page_sections[{{ count }}][block]" value="two-column">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group content-editor">
+          <label for="content">Content</label>
+          <textarea name="page_sections[{{ count }}][col1][content]" rows="7" class="form-control" data-provide="markdown">{{ section.col1.content }}</textarea>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group content-editor">
+          <label for="content">Content</label>
+          <textarea name="page_sections[{{ count }}][col2][content]" rows="7" class="form-control" data-provide="markdown">{{ section.col2.content }}</textarea>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group content-editor">
+          <label for="content">Content</label>
+          <textarea name="page_sections[{{ count }}][col3][content]" rows="7" class="form-control" data-provide="markdown">{{ section.col3.content }}</textarea>
+        </div>
+      </div>
+
+    </div>
+    <div class="form-group">
+      <button type="button" class="remove-template-button" data-target="#section-{{ count }}">Remove Section</button>
+    </div>
+    </div>
+
+  </div>
+</div>
